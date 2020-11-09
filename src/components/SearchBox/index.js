@@ -9,15 +9,12 @@ const SearchName = () => {
         <div className="searchbox">
             <form className="form-inline">
                 <input
-                    className="form-control mr-sm-2"
+                    className="form-control form-control-sm"
                     type="search"
-                    placeholder="Search"
+                    placeholder="Name"
                     aria-label="Search"
-                    onChange={e => context.handleSearchChange(e)}
-                />
-                <button className="btn my-2 my-sm-0" type="submit">
-                    Search
-                 </button>
+                    onChange={e => context.handleSearchChange(e)}/>
+                <button className="btn my-2 my-sm-2 btn-sm" type="submit">Search</button>
             </form>
         </div>
     );
