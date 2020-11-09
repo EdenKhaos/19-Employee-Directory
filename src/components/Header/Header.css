@@ -1,9 +1,10 @@
 .header {
     padding: 30px 0;
     color: #ffffff;
-    background-color: palevioletred;
+    background-image: url('https://www.streebo.com/wp-content/themes/streebo/images/Employee-Engagement-Solution/Employee-Engagement-Solution-banner.jpg');
     width: 100%;
     text-align: center;
-    border-bottom: 10px solid purple;
+    border-bottom: 10px solid darkblue;
     margin-bottom: 10px;
+    outline-color: darkblue;
 }

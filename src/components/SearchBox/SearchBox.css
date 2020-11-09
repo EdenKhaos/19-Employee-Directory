@@ -1,7 +1,11 @@
 .searchbox button{
-    border: 1px solid purple;
+    border: 1px solid rgb(0, 0, 60);
 }
 .searchbox button:hover {
-    background-color: purple;
+    background-color: rgb(0, 0, 60);
     color:white;
+}
+.searchbox {
+    margin: 0 auto;
+    display: inline-block;
 }
